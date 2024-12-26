@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экскурсии по Москве</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#excursions">Экскурсии</a></li>
+                <li><a href="#videos">Видео</a></li>
+                <li><a href="#contact">Обратная связь</a></li>
+                <li><a href="register.html" class="login" >Регистрация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Добро пожаловать в мир экскурсий по Москве!</h1>
+        <p>Откройте для себя удивительные места и истории нашего города.</p>
+    </section>
+
+    <section id="excursions">
+        <h2>Наши экскурсии</h2>
+        <div class="excursion-card">
+            <h3>Прогулка по Арбату</h3>
+            <p>Погрузитесь в атмосферу старого Арбата.</p>
+            <button>Записаться</button>
+        </div>
+        <div class="excursion-card">
+            <h3>Экскурсия по Красной площади</h3>
+            <p>Узнайте историю главной площади страны.</p>
+            <button>Записаться</button>
+        </div>
+        <div class="excursion-card">
+            <h3>Легенды и мистика спящего города</h3>
+            <p>Маршрут проходит по самым красивым панорамным местам столицы.</p>
+            <button>Записаться</button>
+        </div>
+        <div class="excursion-card">
+            <h3>Обзорная экскурсия по новогодней Москве</h3>
+            <p>Вы увидите главные достопримечательности города.</p>
+            <button>Записаться</button>
+        </div>
+        <div class="excursion-card">
+            <h3>Башня ОКО</h3>
+            <p>Посмотрите на главные достопримечательности и оцените красоту столицы с высоты птичьего полёта!</p>
+            <button>Записаться</button>
+        </div>
+          <div class="excursion-card">
+            <h3>Тайны Остоженки с фонарщиком Фаролеро</h3>
+            <p>Интерактивное шоу-прогулка по самым загадочным и привлекательным уголкам города.</p>
+            <button>Записаться</button>
+        </div>
+    </section>
+    <h2>Фото с наших экскурсиях</h2>
+    <section id="gallery">
+        <br>
+        <img src="img/foto1.jpg">
+        <img src="img/foto2.jpg">
+        <img src="img/foto3.jpg">
+        <img src="img/foto4.jpg">
+    </section>
+
+    <section id="contact">
+        <h2>Обратная связь</h2>
+        <div class="main-content">
+            <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+                <div class = "form-zvonok"> 
+                    <div>
+                        <label>Имя<span>*</span></label>
+                        <input type = 'text' name = 'username' required></div>
+                    <div>
+                        <label>Номер телефона<span>*</span></label>
+                        <input type='text' name='usernumber' required></div>
+                    <div>
+                        <label>Сообщение</label>
+                        <input type='text' name='question'>
+                    </div>
+                    <input class = "bot-send-mail" type = 'submit' value = 'Отправить'>
+                </div>
+    </section>
+
+    <footer>
+        <p>Выполнила Забор Алина</p>
+        <div class="social-media">
+            <a>Facebook</a>
+            <a>Instagram</a>
+            <a>Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
